@@ -7,7 +7,7 @@ const app = props => {
     person: [
       {name:'Kunjal', age:'33'},
       {name:'Sid', age:'36'},
-      {name:'Nivi', age:'1'},
+      {name:'Nui', age:'1'},
       {name:'Nivi', age:'1'},
     ],
     otherState:'Some other value'
@@ -23,7 +23,7 @@ const app = props => {
       {name:'Kunj', age:'33'},
       {name:'Sid', age:'36'},
       {name:'Nitya', age:'3'},
-      {name:'Nivi', age:'1'},
+      {name:'Nirvaan', age:'1'},
       ] 
     });
   };
@@ -36,7 +36,7 @@ const app = props => {
       <Person name={personState.person[0].name} age={personState.person[0].age}/>
       <Person name={personState.person[1].name} age={personState.person[1].age}> My Hobbies : Racing</Person>
       <Person name={personState.person[2].name} age={personState.person[2].age}/>
-      <Person name={personState.person[3].name} age={personState.person[3].age}/>
+      <Person name={personState.person[3].name} age={personState.person[3].age}> I love food</Person>
     </div>
   );
 }
