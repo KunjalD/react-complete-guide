@@ -8,6 +8,7 @@ const app = props => {
       {name:'Kunjal', age:'33'},
       {name:'Sid', age:'36'},
       {name:'Nivi', age:'1'},
+      {name:'Nivi', age:'1'},
     ],
     otherState:'Some other value'
   });
